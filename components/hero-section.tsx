@@ -46,13 +46,13 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </a>
-              <a href="#contacto">
+              <a href="/caso-exito">
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white w-full"
                 >
-                  Solicitar Demo
+                  Ver caso de éxito
                 </Button>
               </a>
             </div>
