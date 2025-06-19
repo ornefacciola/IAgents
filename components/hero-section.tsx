@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Zap, Target, Users, Brain } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -46,7 +47,7 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </a>
-              <a href="/caso-exito">
+              <Link href="/caso-exito" passHref legacyBehavior>
                 <Button
                   size="lg"
                   variant="outline"
@@ -54,7 +55,7 @@ export function HeroSection() {
                 >
                   Ver caso de éxito
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
 
